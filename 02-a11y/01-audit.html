@@ -4,8 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise 01 - Audit</title>
+    <style>
+      fieldset {
+        margin: 0;
+        border: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
+<<<<<<< HEAD
     <form>
       Name:<br />
       <input type="text" name="name" /><br /><br />
@@ -28,5 +36,49 @@
       <input type="text" name="cvv" /><br /><br />
       <input type="button" value="Submit" />
     </form>
+=======
+    <main>
+      <h1>Exercise 01 - Audit</h1>
+      <form>
+        <div>
+          <label for="name">Name:</label><br />
+          <input type="text" name="name" id="name" /><br /><br />
+        </div>
+        <div>
+          <label for="address">Address:</label><br />
+          <input type="text" name="address" id="address" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="city">City:</label><br />
+          <input type="text" name="city" id="city" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="zip">Zip Code:</label><br />
+          <input type="text" name="zip" id="zip" />
+          <br /><br />
+        </div>
+        <fieldset>
+          <legend>Card Type:<br /></legend>
+          <input type="radio" name="card" value="visa" id="visa" />
+          <label for="visa">Visa</label><br />
+          <input type="radio" name="card" value="mastercard" id="mastercard" />
+          <label for="mastercard">MasterCard</label><br />
+          <input type="radio" name="card" value="amex" id="amex" />
+          <label for="amex">American Express</label><br /><br />
+        </fieldset>
+        <div>
+          <label for="cc_number">Credit Card Number:</label><br />
+          <input type="text" name="cc_number" id="cc_number" /><br /><br />
+        </div>
+        <div>
+          <label for="cvv">CVV:<br /></label
+          ><input type="text" name="cvv" id="cvv" /><br /><br />
+        </div>
+        <div><input type="button" value="Submit" /></div>
+      </form>
+    </main>
+>>>>>>> de6fbb6 (01-audit)
   </body>
 </html>
