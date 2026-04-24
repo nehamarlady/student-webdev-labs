@@ -1,1 +1,105 @@
-/* Add your CSS code here  */
+:root {
+  --background-color: #f7f7f7;
+  --text-color: #333333;
+  --ice-blue-juvie: #8fbcd4;
+  --gothic-gray-blue: #6f8796;
+  --dark-slate-infinity: #1f2a33;
+  --gray-border: #cccccc;
+  --table-emphasis-background: #eceaea;
+  --table-background: #f4f4f4;
+}
+body {
+  background-color: var(--background-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.nav {
+  background-color: var(--dark-slate-infinity);
+}
+.nav-list {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+.nav-item {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.nav-link {
+  color: var(--ice-blue-juvie);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 0.3rem 0.5rem;
+  transition:
+    background 0.5s,
+    color 0.5s;
+}
+.nav-link:hover {
+  background-color: var(--ice-blue-juvie);
+  color: var(--dark-slate-infinity);
+}
+.section {
+  margin-top: 2rem;
+}
+.book-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 0 1rem;
+}
+.main-heading {
+  margin: 2rem;
+  text-align: center;
+  color: var(--gothic-gray-blue);
+}
+
+.font-cinzel {
+  font-family: "Cinzel";
+}
+.h2 {
+  border-bottom: 1px solid var(--gray-border);
+}
+
+.book-lists li {
+  margin-bottom: 0.5rem;
+}
+
+.books-lists li > ol {
+  margin-top: 0.4rem;
+}
+
+.images-container {
+  text-align: center;
+}
+.book-image {
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+.book-image:hover {
+  transform: scale(1.1);
+}
+.table {
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid var(--gray-border);
+  text-align: center;
+  padding: 0.5rem;
+}
+.table tr:nth-child(even) {
+  background-color: var(--table-background);
+}
+.table-heading {
+  background-color: var(--table-emphasis-background);
+}
+.table-footer {
+  font-weight: bold;
+  background-color: var(--table-emphasis-background);
+}
