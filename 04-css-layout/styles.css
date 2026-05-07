@@ -179,18 +179,7 @@ h1 {
     "aside"
     "footer ";
 }
-@media (min-width: 992px) {
-  .grid-area-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 1fr 3fr 3fr 1fr;
-    grid-template-areas:
-      "header header header"
-      "aside article article"
-      "section section section"
-      "footer footer footer";
-  }
-}
+
 @media (min-width: 576px) {
   .grid-area-container {
     display: grid;
@@ -201,5 +190,17 @@ h1 {
       "article aside"
       "section section"
       "footer footer";
+  }
+}
+@media (min-width: 992px) {
+  .grid-area-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-template-areas:
+      "header header header"
+      "aside article article"
+      "section section section"
+      "footer footer footer";
   }
 }
