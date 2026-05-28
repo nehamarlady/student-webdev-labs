@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 .ira-form {
   max-width: 500px;
 }
 .text-primary {
   color: #1313ba !important;
-=======
+}
 form {
   max-width: 400px;
->>>>>>> f062dd7 (Add: starter files for bootstrap exercises)
 }
