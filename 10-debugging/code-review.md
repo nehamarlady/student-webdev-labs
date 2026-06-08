@@ -34,7 +34,7 @@ Updated code:
 </form>
 ```
 
-## Issue 2: More Infor Uses Anchor Instead of Button
+## Issue 2: More Info Uses Anchor Instead of Button
 
 When we hover over a More info Control. it behaves like a button and opens a popup. it does not navigate anywhere. An anchor elements is being used as a button.
 Anchor should navigate to another page and open a URL
@@ -93,8 +93,10 @@ Initial code:
 .card {
 background-color: var(--darker-blue-transpaent);
 }
+```
 
 Updated code:
+```
 :root {
 --darker-blue-transparent: rgba(0, 0, 139, 0.5);
 }
