@@ -85,6 +85,7 @@ Typos in CSS variable names can lead to:
 Styles not being applied correctly. Other developers becoming confused about which variable to use. Inconsistencies when referencing the variable elsewhere in the stylesheet. Increased maintenance difficulty because the typo may be copied throughout the codebase.
 
 Initial code:
+```
 :root {
 --darker-blue-transpaent: rgba(0, 0, 139, 0.5);
 }
@@ -101,7 +102,7 @@ Updated code:
 .card {
 background-color: var(--darker-blue-transparent);
 }
-
+```
 ## Issue 5: Missing Fieldset for checkbox groupd
 
 The checkbox options represent a single question "which cat breeds do you like?", but they are not enclosed withing a fildset element and do not have a `html <legend> `describing the group.
@@ -126,7 +127,7 @@ Current code:
 
 Updated code:
 
-```html
+```
 <fieldset class="checkbox-container">
   <legend>Favorite Cat Breeds</legend>
 
